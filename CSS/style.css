@@ -1,0 +1,54 @@
+/*Project styles*/
+
+body {
+  background-color: rgb(17,21,28);
+  position: relative;
+  box-sizing: border-box;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 250px -450px 0 -450px;
+  padding: 50px;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Slabo 27px', serif;
+  color: rgb(232,233,235);
+
+}
+
+.display{
+  margin: 20px;
+  padding: 50px;
+  font-size: 1.5em;
+
+}
+
+.quote {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: rgb(54,65,86);
+}
+
+.button {
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  background-color: rgb(33,45,64);
+  border: rgb(240,101,67);
+  color:inherit;
+}
+
+.button:hover {
+  transition: .75s;
+  background-color: rgb(240,101,67);
+  border: 5px solid rgb(33,45,64);
+
+}
