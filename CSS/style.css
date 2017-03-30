@@ -10,7 +10,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: 250px -450px 0 -450px;
+  margin: 100px -450px 0 -450px;
   padding: 50px;
   width: 800px;
   height: 600px;
@@ -51,4 +51,9 @@ body {
   background-color: rgb(240,101,67);
   border: 5px solid rgb(33,45,64);
 
+}
+
+.author {
+  float: right;
+  margin-top: -40px;
 }
